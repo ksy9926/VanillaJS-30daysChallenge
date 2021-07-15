@@ -14,11 +14,6 @@ function setDate() {
   secondHand.style.transform = `rotate(${secondDegree}deg)`;
   minuteHand.style.transform = `rotate(${minuteDegree}deg)`;
   hourHand.style.transform = `rotate(${hourDegree}deg)`;
-
-  console.log(`현재시간은 ${hour}시 ${minute}분 ${second}초 입니다.`);
-  console.log(
-    `현재각도는 ${hourDegree}도 ${minuteDegree}도 ${secondDegree}도 입니다.`
-  );
 }
 
 setInterval(setDate, 1000);
